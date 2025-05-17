@@ -1,15 +1,12 @@
-# 🛡️ Mini IDS - Intrusion Detection System (Python)
 
 This is a basic network-based Intrusion Detection System (IDS) built in Python using Scapy.
 It works on Windows and monitors live network traffic for:
 
-- 🚨 SYN flood attempts
-- 🔍 Port scan behavior
-- ⚠️ Blacklisted IPs
+SYN flood attempts
+Port scan behavior
+Blacklisted IPs
 
----
-
-## 📦 Requirements
+ Requirements
 
 - Python 3.x
 - scapy
@@ -21,7 +18,7 @@ pip install scapy
 
 ---
 
-## ▶️ How to Run
+How to Run
 
 1. Open CMD **as Administrator**
 2. Navigate to the project folder
@@ -31,8 +28,6 @@ python mini_ids.py
 ```
 
 ---
-
-## 🧪 Testing
 
 To simulate an attack, try scanning the machine from another device:
 ```
@@ -47,7 +42,7 @@ You'll get alerts like:
 
 ---
 
-## ⚙️ Features
+Features
 
 - Real-time packet sniffing
 - Blacklist IP detection
@@ -56,17 +51,7 @@ You'll get alerts like:
 
 ---
 
-## ⚠️ Legal Note
-
-This tool is for educational and lab use only. Do **not** use it to monitor or interfere with networks you don't own or control.
+**This tool is for educational and lab use only. Do **not** use it to monitor or interfere with networks you don't own or control.**
 
 ---
 
-## 💡 Upgrades You Can Add
-
-- Alert logging to a file
-- Desktop notifications or sound alerts
-- Email alerts
-- GUI interface (Tkinter or PyQt)
-
-Happy hacking 🔐

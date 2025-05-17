@@ -33,13 +33,6 @@ To simulate an attack, try scanning the machine from another device:
 ```
 nmap -sS <your-ip>
 ```
-
-You'll get alerts like:
-```
-🚨 POSSIBLE SYN FLOOD from 192.168.1.5
-🔍 Possible Port Scan: 192.168.1.5 → Port 80
-```
-
 ---
 
 Features
